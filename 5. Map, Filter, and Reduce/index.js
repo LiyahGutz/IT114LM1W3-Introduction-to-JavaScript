@@ -2,13 +2,13 @@
     Resources:
     - freeCodeCamp on Map, Reduce and Filter: https://www.freecodecamp.org/news/javascript-map-reduce-and-filter-explained-with-examples/
 */
-// TODO 4.1 Use the map method to create a new array that contains the squares of all numbers in the array
+// TODO 5.1 Use the map method to create a new array that contains the squares of all numbers in the array
 const numbers = [1, 2, 4, 4, 5];
 // Your code here
 const squared = numbers.map(item => item ** 2);
 console.log(squared);
 
-// TODO 4.2 Use the filter method to create a new array that contains only the even numbers in the array
+// TODO 5.2 Use the filter method to create a new array that contains only the even numbers in the array
 // Your code here
 const evens = numbers.filter(item => item % 2 === 0);
 console.log(evens)
