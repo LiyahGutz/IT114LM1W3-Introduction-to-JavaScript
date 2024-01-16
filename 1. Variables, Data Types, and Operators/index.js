@@ -38,9 +38,12 @@ console.log(f)
 // TODO 1.5 Try out the different string operators
 // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#string_operators
 // Your code here
-console.log("Hi "+"Aaliyah")
+string = "Aaliyah"
+console.log("Hi " + string)
+string += ". Whazzup"
+console.log("Hi " + string)
 // Checkpoint 1.3 What operators did you use?
-// Answer: 
+// Answer: Concatenation and shorthand assignment
 
 // TODO 1.6 Try out the different logical operators
 // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#logical_operators
@@ -49,14 +52,21 @@ const g = true && false
 console.log(g)
 const h = true || false
 console.log(h)
+const i = !false
+console.log(i)
 // Checkpoint 1.4 What operators did you use?
-// Answer: 
+// Answer: Logical AND, OR, and NOT operators
 
 
 // TODO 1.7 Try out the different relational operators
 // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#relational_operators
-
+const elements = ["Fire", "Earth", "Air", "Water"]
+console.log(0 in elements)
+console.log(4 in elements)
+console.log(elements)
 
 // Checkpoint 1.5 What does [] == false evaluate to? Why does that happen? Research why
-// Answer: 
+// Answer: In JavaScript, the expression [] == false evaluates to false. JavaScript coerces the types when comparing an empty array to a boolean; the empty array is viewed as truthy and the comparison returns false.
 // Your code here
+elements == false
+console.log(elements)
